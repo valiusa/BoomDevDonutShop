@@ -1,12 +1,12 @@
-import StartComponent from "./components/StartComponent";
+import StartScreen from "./components/StartScreen";
+//import MenuScreen from "./components/MenuScreen";
 
-// styles
 import "./App.css";
 
 function App() {
     return (
         <div className="App">
-            <StartComponent></StartComponent>
+            <StartScreen />
         </div>
     );
 }
