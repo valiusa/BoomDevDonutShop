@@ -1,0 +1,60 @@
+.container-start {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(130deg, #ffe84a 40%, #ff86b3 1%);
+}
+
+.button-wrapper {
+    position: relative;
+    top: 120px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*bootstrap btn class changes*/
+.btn {
+    border-radius: 0 !important;
+    width: 300px !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+
+.image-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.image {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 400px;
+}
+
+.header-wrapper {
+    position: relative;
+    top: 80px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center !important;
+}
+
+.the {
+    font-size: 45px !important;
+    padding-left: 276px !important;
+}
+
+.headings {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 100px;
+}
