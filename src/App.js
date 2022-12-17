@@ -1,5 +1,4 @@
 import StartScreen from "./components/StartScreen";
-//import MenuScreen from "./components/MenuScreen";
 
 import "./App.css";
 
