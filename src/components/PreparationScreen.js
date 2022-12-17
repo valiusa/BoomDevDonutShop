@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import ReadyScreen from "./ReadyScreen";
 
-function PreparationScreen({ app }) {
+function PreparationScreen({ app, donut }) {
     const [showReadyScreen, setShowReadyScreen] = useState(app);
 
     useEffect(() => {

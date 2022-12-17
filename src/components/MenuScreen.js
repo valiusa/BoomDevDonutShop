@@ -32,7 +32,11 @@ function MenuScreen({ app }) {
     return (
         <div className="MenuScreen">
             <h1 className="title theMS">{the}</h1>
-            <TitleComponent text={title} className={"titleContainerMS"} />
+            <TitleComponent
+                text={title}
+                className={"titleContainerMS"}
+                hClassName={"title"}
+            />
             <div className="order-btn-container">
                 <div
                     onClick={() => selectDonut(sky_shaped)}
@@ -100,9 +104,6 @@ function MenuScreen({ app }) {
                 </div>
             </div>
         </div>
-        // <div>
-        //     <button onClick={selectDonut}>Donut</button>
-        // </div>
     );
 }
 
