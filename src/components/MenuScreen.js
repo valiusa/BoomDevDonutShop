@@ -31,7 +31,11 @@ function MenuScreen({ app }) {
 
     return (
         <div className="MenuScreen">
-            <h1 className="title theMS">{the}</h1>
+            <TitleComponent
+                text={the}
+                className={"theMS"}
+                hClassName={"title theMS-1"}
+            />
             <TitleComponent
                 text={title}
                 className={"titleContainerMS"}
