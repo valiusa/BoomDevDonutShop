@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 import Donut from "./DonutComponent";
 import MenuScreen from "./MenuScreen";
 import TitleComponent from "./TitleComponent";
+import ButtonComponent from "./ButtonComponent";
 
 // assest
 import true_blood from "../assets/true_blood.svg";
@@ -13,13 +14,13 @@ import sparkles from "../assets/sparkles.svg";
 
 // styles
 import "../styles/StartScreen.css";
-import "../styles/Button.css";
 
 function StartScreen(app) {
     const the = "THE";
     const title = "DONUT SHOP";
     const altDonut = "donut";
     const altSparkles = "sparkles";
+    const hasImage = false;
 
     const goToMenuScreen = () => {
         if (app.app == null) {
@@ -75,9 +76,12 @@ function StartScreen(app) {
                 className={"titleContainerSS"}
                 hClassName={"title"}
             />
-            <button className="button bnt-pos-ss" onClick={goToMenuScreen}>
-                Start
-            </button>
+            <ButtonComponent
+                btnFunc={goToMenuScreen}
+                btnClass={"button bnt-pos-ss"}
+                btnText={"Start"}
+                imgProps={{ hasImage }}
+            />
         </div>
     );
 }
