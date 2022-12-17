@@ -2,6 +2,7 @@ import React from "react";
 
 // components
 import PreparationScreen from "./PreparationScreen";
+import ButtonComponent from "./ButtonComponent";
 import TitleComponent from "./TitleComponent";
 import Donut from "./DonutComponent";
 
@@ -13,13 +14,26 @@ import apple_pay from "../assets/apple-pay.png";
 
 // styles
 import "../styles/PaymentScreen.css";
-import "../styles/Button.css";
 
 function PaymentScreen({ app, donutPath }) {
     const you_can = "You can";
     const pay_us = "PAY US";
     const now = "NOW";
     const altDonut = "donut";
+
+    const apple = {
+        hasImage: true,
+        alt: "apple pay",
+        path: apple_pay,
+        imgClassName: "pay",
+    };
+
+    const google = {
+        hasImage: true,
+        alt: "google pay",
+        path: google_pay,
+        imgClassName: "pay",
+    };
 
     const pay = () => {
         app.render(
@@ -65,20 +79,18 @@ function PaymentScreen({ app, donutPath }) {
                 isRotating={false}
             />
             <div className="ps-btn-container">
-                <button className="button ps-margin" onClick={pay}>
-                    <img
-                        alt="apple pay"
-                        src={apple_pay}
-                        className="g-pay"
-                    ></img>
-                </button>
-                <button className="button" onClick={pay}>
-                    <img
-                        alt="google pay"
-                        src={google_pay}
-                        className="g-pay"
-                    ></img>
-                </button>
+                <ButtonComponent
+                    btnFunc={pay}
+                    btnClass={"button ps-margin"}
+                    btnText={""}
+                    imgProps={apple}
+                />
+                <ButtonComponent
+                    btnFunc={pay}
+                    btnClass={"button"}
+                    btnText={""}
+                    imgProps={google}
+                />
             </div>
         </div>
     );

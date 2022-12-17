@@ -1,9 +1,10 @@
 import React from "react";
 
 // components
-import StartScreen from "./StartScreen";
 import Donut from "./DonutComponent";
+import StartScreen from "./StartScreen";
 import TitleComponent from "./TitleComponent";
+import ButtonComponent from "./ButtonComponent";
 
 // styles
 import "../styles/ReadyScreen.css";
@@ -13,6 +14,7 @@ function ReadyScreen({ app, donutPath }) {
     const firstTitle = "You can now come";
     const secondTitle = "and pick up";
     const thirdTitle = "your amzaing Donut!";
+    const hasImage = false;
 
     const goToStart = () => {
         app.render(
@@ -48,9 +50,12 @@ function ReadyScreen({ app, donutPath }) {
                 className={"t-title"}
                 hClassName={"title rs-title-h"}
             />
-            <button className="button bnt-pos-rs" onClick={goToStart}>
-                Done
-            </button>
+            <ButtonComponent
+                btnFunc={goToStart}
+                btnClass={"button bnt-pos-rs"}
+                btnText={"Done"}
+                imgProps={{ hasImage }}
+            />
         </div>
     );
 }

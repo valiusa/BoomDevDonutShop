@@ -7,9 +7,10 @@
 .ps-btn-container {
     position: absolute;
     top: 330px;
+    left: 55px;
 }
 
-.g-pay {
+.pay {
     position: relative;
     top: -25px;
 }
