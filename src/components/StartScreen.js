@@ -7,13 +7,13 @@ import MenuScreen from "./MenuScreen";
 import TitleComponent from "./TitleComponent";
 
 // assest
-import true_blood from "./true_blood.svg";
-import unicorn_dust from "./unicorn_dust.svg";
-import sparkles from "./sparkles.svg";
+import true_blood from "../assets/true_blood.svg";
+import unicorn_dust from "../assets/unicorn_dust.svg";
+import sparkles from "../assets/sparkles.svg";
 
 // styles
-import "./StartScreen.css";
-import "./Button.css";
+import "../styles/StartScreen.css";
+import "../styles/Button.css";
 
 function StartScreen(app) {
     const the = "THE";

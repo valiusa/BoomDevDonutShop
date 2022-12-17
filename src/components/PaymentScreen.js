@@ -6,14 +6,14 @@ import TitleComponent from "./TitleComponent";
 import Donut from "./DonutComponent";
 
 // assets
-import sky_shaped from "./sky_shaped.svg";
-import unicorn_dust from "./unicorn_dust.svg";
-import google_pay from "./google-pay.png";
-import apple_pay from "./apple-pay.png";
+import sky_shaped from "../assets/sky_shaped.svg";
+import unicorn_dust from "../assets/unicorn_dust.svg";
+import google_pay from "../assets/google-pay.png";
+import apple_pay from "../assets/apple-pay.png";
 
 // styles
-import "./PaymentScreen.css";
-import "./Button.css";
+import "../styles/PaymentScreen.css";
+import "../styles/Button.css";
 
 function PaymentScreen({ app, donutPath }) {
     const you_can = "You can";

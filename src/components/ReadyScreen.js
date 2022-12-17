@@ -6,7 +6,7 @@ import Donut from "./DonutComponent";
 import TitleComponent from "./TitleComponent";
 
 // styles
-import "./ReadyScreen.css";
+import "../styles/ReadyScreen.css";
 
 function ReadyScreen({ app, donutPath }) {
     const altDonut = "donut";

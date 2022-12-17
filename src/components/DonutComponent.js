@@ -1,7 +1,7 @@
 import React from "react";
 
-// style
-import "./Donut.css";
+// styles
+import "../styles/Donut.css";
 
 function Donut({ id, alt, path, w, h, isRotating }) {
     return (
