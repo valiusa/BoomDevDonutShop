@@ -6,13 +6,13 @@ import PaymentScreen from "./PaymentScreen";
 import TitleComponent from "./TitleComponent";
 
 // assets
-import true_blood from "./true_blood.svg";
-import unicorn_dust from "./unicorn_dust.svg";
-import sky_shaped from "./sky_shaped.svg";
-import marble_magic from "./marble_magic.svg";
+import true_blood from "../assets/true_blood.svg";
+import unicorn_dust from "../assets/unicorn_dust.svg";
+import sky_shaped from "../assets/sky_shaped.svg";
+import marble_magic from "../assets/marble_magic.svg";
 
 // styles
-import "./MenuScreen.css";
+import "../styles/MenuScreen.css";
 
 function MenuScreen({ app }) {
     const width = 90;

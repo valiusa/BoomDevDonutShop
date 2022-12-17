@@ -6,10 +6,10 @@ import TitleComponent from "./TitleComponent";
 import Donut from "./DonutComponent";
 
 // assets
-import sparkles from "./sparkles.svg";
+import sparkles from "../assets/sparkles.svg";
 
 // styles
-import "./PreparationScreen.css";
+import "../styles/PreparationScreen.css";
 
 function PreparationScreen({ app, donut }) {
     const title = "Preparing...";

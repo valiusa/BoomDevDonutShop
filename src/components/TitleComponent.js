@@ -1,6 +1,7 @@
 import React from "react";
 
-import "./TitleComponent.css";
+//styles
+import "../styles/TitleComponent.css";
 
 function TitleComponent({ text, className, hClassName }) {
     return (
