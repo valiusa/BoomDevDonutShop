@@ -2,9 +2,9 @@ import React from "react";
 
 import "./TitleComponent.css";
 
-function TitleComponent({ text }) {
+function TitleComponent({ text, className }) {
     return (
-        <div className="titleContainer">
+        <div className={className}>
             <h1 className="title">{text}</h1>
         </div>
     );

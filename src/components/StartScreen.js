@@ -34,22 +34,31 @@ function StartScreen() {
     return (
         <div className="StartScreen">
             <Donut
-                id={"d1"}
+                id={"ss1"}
                 alt={altDonut}
                 path={unicorn_dust}
                 w={255}
                 h={240}
+                isRotating={false}
             />
-            <Donut id={"d2"} alt={altDonut} path={true_blood} w={291} h={289} />
             <Donut
-                id={"d3"}
+                id={"ss2"}
+                alt={altDonut}
+                path={true_blood}
+                w={291}
+                h={289}
+                isRotating={false}
+            />
+            <Donut
+                id={"ss3"}
                 alt={altSparkles}
                 path={sparkles}
                 w={500}
                 h={500}
+                isRotating={false}
             />
-            <h1 className="title the">{the}</h1>
-            <TitleComponent text={title} />
+            <h1 className="title theSS">{the}</h1>
+            <TitleComponent text={title} className={"titleContainerSS"} />
             <button className="button" onClick={goToMenuScreen}>
                 Start
             </button>
