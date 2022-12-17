@@ -1,0 +1,51 @@
+.ReadyScreen {
+    width: 100vw;
+    height: 100vh;
+    background: #21e8e5;
+}
+
+.bg {
+    position: absolute;
+    width: 634.62px;
+    height: 1150.92px;
+    left: -252px;
+    top: 0px;
+    background: #5739d6;
+    transform: rotate(-39.7deg);
+}
+
+.bnt-pos-rs {
+    position: absolute;
+    left: 55px;
+    top: 660px;
+}
+
+#rs1 {
+    position: absolute;
+    left: 50px;
+    top: 140px;
+    z-index: 99;
+}
+
+.f-title {
+    position: absolute;
+    top: 470px;
+    left: 55px;
+}
+
+.s-title {
+    position: absolute;
+    top: 510px;
+    left: 178px;
+}
+
+.t-title {
+    position: absolute;
+    top: 550px;
+    left: 10px;
+}
+
+.rs-title-h {
+    font-size: 40px !important;
+    line-height: 44px !important;
+}

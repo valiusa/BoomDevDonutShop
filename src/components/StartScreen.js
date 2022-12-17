@@ -15,20 +15,28 @@ import sparkles from "./sparkles.svg";
 import "./StartScreen.css";
 import "./Button.css";
 
-function StartScreen() {
+function StartScreen(app) {
     const the = "THE";
     const title = "DONUT SHOP";
     const altDonut = "donut";
     const altSparkles = "sparkles";
 
     const goToMenuScreen = () => {
-        const app = ReactDOM.createRoot(document.querySelector(".App"));
+        if (app.app == null) {
+            app = new ReactDOM.createRoot(document.querySelector(".App"));
 
-        app.render(
-            <React.StrictMode>
-                <MenuScreen app={app} />
-            </React.StrictMode>
-        );
+            app.render(
+                <React.StrictMode>
+                    <MenuScreen app={app} />
+                </React.StrictMode>
+            );
+        } else {
+            app.app.render(
+                <React.StrictMode>
+                    <MenuScreen app={app.app} />
+                </React.StrictMode>
+            );
+        }
     };
 
     return (
