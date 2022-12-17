@@ -4,26 +4,26 @@
     background: linear-gradient(110deg, #ffe84a 40%, #ff86b3 0%);
 }
 
-.the {
+.theSS {
     position: absolute;
     left: 288px;
     top: 500px;
     font-size: 48px !important;
 }
 
-.titleContainer {
+.titleContainerSS {
     position: absolute;
     left: 32px;
     top: 560px;
 }
 
-#d1 {
+#ss1 {
     position: absolute;
     left: -50px;
     top: -30px;
 }
 
-#d2 {
+#ss2 {
     position: absolute;
     left: 130px;
     top: 170px;

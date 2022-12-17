@@ -2,7 +2,7 @@ import React from "react";
 
 import PreparationScreen from "./PreparationScreen";
 
-function PaymentScreen({ app }) {
+function PaymentScreen({ app, donutPath }) {
     const pay = () => {
         app.render(
             <React.StrictMode>
