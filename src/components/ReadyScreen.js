@@ -2,7 +2,7 @@ import React from "react";
 
 import StartScreen from "./StartScreen";
 
-function ReadyScreen({ app }) {
+function ReadyScreen({ app, donutPath }) {
     const goToStart = () => {
         app.render(
             <React.StrictMode>

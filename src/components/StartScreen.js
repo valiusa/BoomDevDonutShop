@@ -57,7 +57,11 @@ function StartScreen() {
                 h={500}
                 isRotating={false}
             />
-            <h1 className="title theSS">{the}</h1>
+            <TitleComponent
+                text={the}
+                className={"theSS"}
+                hClassName={"title theSS-1"}
+            />
             <TitleComponent
                 text={title}
                 className={"titleContainerSS"}

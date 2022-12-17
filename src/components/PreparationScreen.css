@@ -1,0 +1,21 @@
+.PreparationScreen {
+    width: 100vw;
+    height: 100vh;
+    background: #ffe84a;
+}
+
+.prs-title-h {
+    font-size: 40px !important;
+}
+
+.title-container-prs {
+    position: absolute;
+    top: 550px;
+    left: 90px;
+}
+
+#prs-1 {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
