@@ -1,0 +1,56 @@
+.PaymentScreen {
+    width: 100vw;
+    height: 100vh;
+    background: #ff86b3;
+}
+
+.ps-btn-container {
+    position: absolute;
+    top: 330px;
+}
+
+.g-pay {
+    position: relative;
+    top: -25px;
+}
+
+.ps-margin {
+    margin-bottom: 40px;
+}
+
+#ps1 {
+    position: absolute;
+    left: -120px;
+    bottom: 60px;
+}
+
+#ps2 {
+    position: absolute;
+    right: -100px;
+    top: 680px;
+}
+
+.ps-title-container {
+    text-align: right;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.ps-title-h-2 {
+    font-size: 48px !important;
+}
+
+.ps-title-h-1 {
+    font-size: 60px !important;
+}
+
+.ps-title-1 {
+    position: relative;
+    top: 50px;
+}
+
+.ps-title-2 {
+    position: relative;
+    top: 20px;
+}

@@ -58,8 +58,12 @@ function StartScreen() {
                 isRotating={false}
             />
             <h1 className="title theSS">{the}</h1>
-            <TitleComponent text={title} className={"titleContainerSS"} />
-            <button className="button" onClick={goToMenuScreen}>
+            <TitleComponent
+                text={title}
+                className={"titleContainerSS"}
+                hClassName={"title"}
+            />
+            <button className="button bnt-pos-ss" onClick={goToMenuScreen}>
                 Start
             </button>
         </div>
