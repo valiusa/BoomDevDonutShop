@@ -15,15 +15,16 @@ function PreparationScreen({ app, donut }) {
     const title = "Preparing...";
     const altDonut = "donut";
     const altSparkles = "sparkles";
+    const props = { app: app, donut: donut };
 
-    const [showReadyScreen, setShowReadyScreen] = useState(app, donut);
+    const [showReadyScreen, setShowReadyScreen] = useState(props);
 
     useEffect(() => {
         setInterval(() => {
-            setShowReadyScreen((app, donut) => {
+            setShowReadyScreen((props) => {
                 app.render(
                     <React.StrictMode>
-                        <ReadyScreen app={app} donutPath={donut} />
+                        <ReadyScreen app={props.app} donutPath={props.donut} />
                     </React.StrictMode>
                 );
             });
