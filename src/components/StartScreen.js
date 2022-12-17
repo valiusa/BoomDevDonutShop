@@ -1,9 +1,17 @@
 import React from "react";
-//import { useNavigate } from "react-router-dom";
+import ReactDOM from "react-dom/client";
+
+import MenuScreen from "./MenuScreen";
 
 function StartScreen() {
     const goToMenuScreen = () => {
-        console.log("menu");
+        const app = ReactDOM.createRoot(document.querySelector(".App"));
+
+        app.render(
+            <React.StrictMode>
+                <MenuScreen app={app} />
+            </React.StrictMode>
+        );
     };
 
     return (
