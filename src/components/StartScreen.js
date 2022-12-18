@@ -14,6 +14,7 @@ import sparkles from "../assets/sparkles.svg";
 
 // styles
 import "../styles/StartScreen.css";
+import "../styles/Shadow.css";
 
 function StartScreen(app) {
     const the = "THE";
@@ -42,6 +43,8 @@ function StartScreen(app) {
 
     return (
         <div className="StartScreen">
+            <div className="donut-shadow ss-ud-shadow-props"></div>
+            <div className="donut-shadow ss-td-shadow-props"></div>
             <Donut
                 id={"ss1"}
                 alt={altDonut}

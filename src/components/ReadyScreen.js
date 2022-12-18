@@ -8,6 +8,7 @@ import ButtonComponent from "./ButtonComponent";
 
 // styles
 import "../styles/ReadyScreen.css";
+import "../styles/Shadow.css";
 
 function ReadyScreen({ app, donutPath }) {
     const altDonut = "donut";
@@ -27,6 +28,7 @@ function ReadyScreen({ app, donutPath }) {
     return (
         <div className="ReadyScreen">
             <div className="bg"></div>
+            <div className="donut-shadow rs-donut-shadow-props"></div>
             <Donut
                 id={"rs1"}
                 alt={altDonut}

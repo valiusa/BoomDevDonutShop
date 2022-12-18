@@ -24,16 +24,34 @@
     position: absolute;
     left: -50px;
     top: -30px;
+    z-index: 100;
 }
 
 #ss2 {
     position: absolute;
     left: 130px;
     top: 170px;
+    z-index: 100;
 }
 
 .bnt-pos-ss {
     position: absolute;
     left: 71px;
     top: 728px;
+}
+
+.ss-ud-shadow-props {
+    width: 255px;
+    height: 240px;
+    left: -50px;
+    top: -10px;
+    z-index: 99;
+}
+
+.ss-td-shadow-props {
+    width: 291px;
+    height: 289px;
+    left: 130px;
+    top: 200px;
+    z-index: 99;
 }

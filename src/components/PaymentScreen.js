@@ -14,6 +14,7 @@ import apple_pay from "../assets/apple-pay.png";
 
 // styles
 import "../styles/PaymentScreen.css";
+import "../styles/Shadow.css";
 
 function PaymentScreen({ app, donutPath }) {
     const you_can = "You can";
@@ -45,6 +46,8 @@ function PaymentScreen({ app, donutPath }) {
 
     return (
         <div className="PaymentScreen">
+            <div className="donut-shadow ps-ud-shadow-props"></div>
+            <div className="donut-shadow ps-ss-shadow-props"></div>
             <div className="ps-title-container">
                 <TitleComponent
                     text={you_can}

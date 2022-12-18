@@ -46,3 +46,31 @@
     font-size: 38px;
     line-height: 38px;
 }
+
+.ms-sp-shadow-props {
+    width: 90px;
+    height: 90px;
+    left: 250px;
+    top: 260px;
+}
+
+.ms-mm-shadow-props {
+    width: 90px;
+    height: 90px;
+    left: 250px;
+    top: 400px;
+}
+
+.ms-tb-shadow-props {
+    width: 90px;
+    height: 90px;
+    left: 250px;
+    top: 543px;
+}
+
+.ms-ud-shadow-props {
+    width: 90px;
+    height: 90px;
+    left: 250px;
+    top: 686px;
+}

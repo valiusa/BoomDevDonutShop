@@ -55,3 +55,17 @@
     position: relative;
     top: 20px;
 }
+
+.ps-ss-shadow-props {
+    width: 234px;
+    height: 230px;
+    left: -120px;
+    bottom: 30px;
+}
+
+.ps-ud-shadow-props {
+    width: 274px;
+    height: 286px;
+    right: -80px;
+    top: 670px;
+}

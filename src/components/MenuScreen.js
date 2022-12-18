@@ -13,6 +13,7 @@ import marble_magic from "../assets/marble_magic.svg";
 
 // styles
 import "../styles/MenuScreen.css";
+import "../styles/Shadow.css";
 
 function MenuScreen({ app }) {
     const width = 90;
@@ -31,6 +32,11 @@ function MenuScreen({ app }) {
 
     return (
         <div className="MenuScreen">
+            <div className="donut-shadow ms-sp-shadow-props"></div>
+            <div className="donut-shadow ms-mm-shadow-props"></div>
+            <div className="donut-shadow ms-tb-shadow-props"></div>
+            <div className="donut-shadow ms-ud-shadow-props"></div>
+
             <TitleComponent
                 text={the}
                 className={"theMS"}

@@ -10,6 +10,7 @@ import sparkles from "../assets/sparkles.svg";
 
 // styles
 import "../styles/PreparationScreen.css";
+import "../styles/Shadow.css";
 
 function PreparationScreen({ app, donut }) {
     const title = "Preparing...";
@@ -33,6 +34,7 @@ function PreparationScreen({ app, donut }) {
 
     return (
         <div className="PreparationScreen">
+            <div className="donut-shadow prs-donut-shadow-props"></div>
             <Donut
                 id={"prs-2"}
                 alt={altSparkles}
