@@ -49,3 +49,11 @@
     font-size: 40px !important;
     line-height: 44px !important;
 }
+
+.rs-donut-shadow-props {
+    width: 291px;
+    height: 289px;
+    left: 50px;
+    top: 170px;
+    z-index: 99;
+}
